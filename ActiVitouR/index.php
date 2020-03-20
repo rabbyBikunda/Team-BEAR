@@ -3,7 +3,7 @@
     <head>
         <?php require("includes/bootstrap_req.php"); ?>
 
-        <title>ActiVitouR</title>
+        <title>VR Cation</title>
 
     </head>
 
@@ -22,21 +22,21 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+                    <div class="carousel-item active" style="background-image: url('https://pixabay.com/get/54e3d2424253a514f6d1867dda6d49214b6ac3e45659754e742978d796/cliff-of-moher-2371819_1920.jpg')">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>First Slide</h3>
-                            <p>This is a description for the first slide.</p>
+                            <h3>VR Cation - Take a tour</h3>
+                            <p>Immersive Virtual Experiences</p>
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+                    <div class="carousel-item" style="background-image: url('https://pixabay.com/get/54e7d5424f51aa14f6d1867dda6d49214b6ac3e45659754e74297dd792/ireland-2701536_1920.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Second Slide</h3>
                             <p>This is a description for the second slide.</p>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+                    <div class="carousel-item" style="background-image: url('https://pixabay.com/get/52e5d34a4355b108feda8460825668204022dfe05b55764873287edc/dolmen-456997_1920.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Third Slide</h3>
                             <p>This is a description for the third slide.</p>
@@ -57,37 +57,39 @@
         <!-- Page Content -->
         <div class="container">
 
-            <h1 class="my-4">Welcome to Modern Business</h1>
+            <h1 class="my-4">Your Experiences Matter</h1>
 
             <!-- Marketing Icons Section -->
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="card h-100">
-                        <h4 class="card-header">Card Title</h4>
+                        <h4 class="card-header">Virtual Reality Tours</h4>
                         <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                            <p class="card-text">Experience virtual tours of various location in Ireland. We provide immersive tours 
+                            of popular Irish tourist attractions.</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="vtours.php" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card h-100">
-                        <h4 class="card-header">Card Title</h4>
+                        <h4 class="card-header">Tour Planner</h4>
                         <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+                            <p class="card-text">Assisting you with planning trips to these locations in Ireland, 
+                                giving you useful and helpful information.</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="activity_planner.php" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card h-100">
-                        <h4 class="card-header">Card Title</h4>
+                        <h4 class="card-header">Your own tours</h4>
                         <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                            <p class="card-text">Creating unique virtual experiences for you</p>
                         </div>
                         <div class="card-footer">
                             <a href="#" class="btn btn-primary">Learn More</a>
@@ -98,72 +100,17 @@
             <!-- /.row -->
 
             <!-- Portfolio Section -->
-            <h2>Portfolio Heading</h2>
+            <h2>Virtual Tours</h2>
 
             <div class="row">
                 <div class="col-lg-4 col-sm-6 portfolio-item">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                        <a href="vtours.php"><img class="card-img-top" src="https://pixabay.com/get/54e2d7424e5aae14f6da8c7dda6d49214b6ac3e45659754e74277ddd9e/ireland-2221482_1280.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
-                                <a href="#">Project One</a>
+                                <a href="#">Glendalough, Co. Wicklow</a>
                             </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Two</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Three</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Four</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Five</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Six</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+                            <p class="card-text">Visit Glendalough forest, Wicklow Mountains and Upper Lake, Glendalough Round Tower and Lough Tay in County Wicklow</p>
                         </div>
                     </div>
                 </div>
