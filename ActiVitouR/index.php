@@ -31,15 +31,13 @@
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://pixabay.com/get/54e7d5424f51aa14f6d1867dda6d49214b6ac3e45659754e74297dd792/ireland-2701536_1920.jpg')">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>Second Slide</h3>
-                            <p>This is a description for the second slide.</p>
+                            <h3>Visit Ireland</h3>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://pixabay.com/get/52e5d34a4355b108feda8460825668204022dfe05b55764873287edc/dolmen-456997_1920.jpg')">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>Third Slide</h3>
-                            <p>This is a description for the third slide.</p>
+                            <h3>Popular Destinations</h3>
                         </div>
                     </div>
                 </div>
@@ -57,7 +55,7 @@
         <!-- Page Content -->
         <div class="container">
 
-            <h1 class="my-4">Your Experiences Matter</h1>
+            <h1 class="my-4">Your Experience Matters</h1>
 
             <!-- Marketing Icons Section -->
             <div class="row">
