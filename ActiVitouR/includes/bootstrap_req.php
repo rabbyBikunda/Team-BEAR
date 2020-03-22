@@ -3,7 +3,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<link rel="icon" href="img/headphones.png" type="image/gif" sizes="16x16">
+<link rel="icon" type="image/png" href="img/logo.png">
 
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 

@@ -22,20 +22,20 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active" style="background-image: url('https://pixabay.com/get/54e3d2424253a514f6d1867dda6d49214b6ac3e45659754e742978d796/cliff-of-moher-2371819_1920.jpg')">
+                    <div class="carousel-item active" style="background-image: url('img/cliffs.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>VR Cation - Take a tour</h3>
                             <p>Immersive Virtual Experiences</p>
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('https://pixabay.com/get/54e7d5424f51aa14f6d1867dda6d49214b6ac3e45659754e74297dd792/ireland-2701536_1920.jpg')">
+                    <div class="carousel-item" style="background-image: url('img/dolmen.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Visit Ireland</h3>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('https://pixabay.com/get/52e5d34a4355b108feda8460825668204022dfe05b55764873287edc/dolmen-456997_1920.jpg')">
+                    <div class="carousel-item" style="background-image: url('img/fields.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Popular Destinations</h3>
                         </div>
@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 portfolio-item">
                     <div class="card h-100">
-                        <a href="vtours.php"><img class="card-img-top" src="https://pixabay.com/get/54e2d7424e5aae14f6da8c7dda6d49214b6ac3e45659754e74277ddd9e/ireland-2221482_1280.jpg" alt=""></a>
+                        <a href="vtours.php"><img class="card-img-top" src="img/wicklow_mountain.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="#">Glendalough, Co. Wicklow</a>
