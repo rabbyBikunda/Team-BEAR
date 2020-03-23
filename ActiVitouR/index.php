@@ -29,13 +29,13 @@
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('img/dolmen.jpg')">
+                    <div class="carousel-item" style="background-image: url('img/forest.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Visit Ireland</h3>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('img/fields.jpg')">
+                    <div class="carousel-item" style="background-image: url('img/dolmen.jpg')">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Popular Destinations</h3>
                         </div>
@@ -109,6 +109,18 @@
                                 <a href="#">Glendalough, Co. Wicklow</a>
                             </h4>
                             <p class="card-text">Visit Glendalough forest, Wicklow Mountains and Upper Lake, Glendalough Round Tower and Lough Tay in County Wicklow</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <a href="vtours.php"><img class="card-img-top" src="img/aran.jpg" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">Aran Islands, Co. Galway</a>
+                            </h4>
+                            <p class="card-text">Visit Aran Islands, ancient ruins around Galway Way.</p>
                         </div>
                     </div>
                 </div>
