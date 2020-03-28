@@ -9,16 +9,18 @@
 
     <body>
 
+
         <?php require("includes/header.php"); ?>
 
         <?php require("includes/navbar.php"); ?>
-        
+
+
+
         <!-- Page Content -->
         <div class="container">
 
             <!-- Page Heading/Breadcrumbs -->
             <h1 class="mt-4 mb-3">Map
-                <small>Subheading</small>
             </h1>
 
             <ol class="breadcrumb">
@@ -34,19 +36,15 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <a href="#">
-                                <img class="img-fluid rounded" src="http://placehold.it/750x300" alt="">
+                                <div id="map" style="width:500px;height:300px;"></div>
                             </a>
                         </div>
                         <div class="col-lg-6">
-                            <h2 class="card-title">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                            <h2 class="card-title">Glendalough, Co. Wicklow</h2>
+                            <p class="card-text">Marked here are the locations of the Glendalough virtual tours</p>
+                            <a href="vtours.php" class="btn btn-primary">Enter virtual tour &rarr;</a>
                         </div>
                     </div>
-                </div>
-                <div class="card-footer text-muted">
-                    Posted on January 1, 2017 by
-                    <a href="#">Start Bootstrap</a>
                 </div>
             </div>
 
@@ -56,63 +54,15 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <a href="#">
-                                <img class="img-fluid rounded" src="http://placehold.it/750x300" alt="">
+                                <div id="map2" style="width:500px;height:300px;"></div>
                             </a>
                         </div>
                         <div class="col-lg-6">
-                            <h2 class="card-title">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                            <h2 class="card-title">Aran Islands, Co. Galway</h2>
+                            <p class="card-text">Marked here are the locations of the Aran Islands virtual tours</p>
+                            <a href="vtours.php" class="btn btn-primary">Enter virtual tour &rarr;</a>
                         </div>
                     </div>
-                </div>
-                <div class="card-footer text-muted">
-                    Posted on January 1, 2017 by
-                    <a href="#">Start Bootstrap</a>
-                </div>
-            </div>
-
-            <!-- Blog Post -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="#">
-                                <img class="img-fluid rounded" src="http://placehold.it/750x300" alt="">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <h2 class="card-title">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-footer text-muted">
-                    Posted on January 1, 2017 by
-                    <a href="#">Start Bootstrap</a>
-                </div>
-            </div>
-
-            <!-- Blog Post -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="#">
-                                <img class="img-fluid rounded" src="http://placehold.it/750x300" alt="">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <h2 class="card-title">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-footer text-muted">
-                    Posted on January 1, 2017 by
-                    <a href="#">Start Bootstrap</a>
                 </div>
             </div>
 
@@ -142,6 +92,26 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.12),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            var map2 = new google.maps.Map(document.getElementById("map2"), mapOptions);
+
+
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(51.5, -0.12),
+                animation: google.maps.Animation.BOUNCE
+            });
+            marker.setMap(map);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACDftqMunSPhLxNGvtpPg8Z_V58tNkYGo&callback=myMap"></script>
 
 </body>
 
