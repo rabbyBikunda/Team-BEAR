@@ -85,12 +85,12 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card h-100">
-                        <h4 class="card-header">Your own tours</h4>
+                        <h4 class="card-header">Create a tour</h4>
                         <div class="card-body">
-                            <p class="card-text">Creating unique virtual experiences for you</p>
+                            <p class="card-text">Creating unique virtual experiences for you via our file upload system</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="file_upload.php" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>

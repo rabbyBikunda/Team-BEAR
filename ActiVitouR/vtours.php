@@ -119,7 +119,7 @@
                     <h3>Aran Islands, Co. Galway</h3>
                     <p>Visit the Aran Islands guarding the Galway Bay in Western Ireland. Aran Islands consist of medieval ruins and are well known for their ancient sites.</p>
                     <!--THIS LINK IS JUST TO TEST IT LOCALLY -->
-                    <a class="btn btn-primary" href="http://localhost:51783" target="_blank">View Tour
+                    <a class="btn btn-primary" href="http://localhost:53327" target="_blank">View Tour
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                     <br>
