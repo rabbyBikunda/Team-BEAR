@@ -18,12 +18,12 @@
 
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">About
-      <small>Subheading</small>
+      <small>VR Cation</small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
       </li>
       <li class="breadcrumb-item active">About</li>
     </ol>
@@ -31,13 +31,13 @@
     <!-- Intro Content -->
     <div class="row">
       <div class="col-lg-6">
-        <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+          <img class="img-fluid rounded mb-4" src="img/official_logo.png" alt="">
       </div>
       <div class="col-lg-6">
-        <h2>About Modern Business</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+<!--        <h2>About Modern Business</h2>-->
+        <p>VR Cation is A Virtual Reality (VR) tour guide application that allows users to view various locations in Ireland and potentially around the world. VR Cation caters to all users from beginner to advanced. Beginners can just simply view a tour while advanced users can create a tour of their choosing via our file upload system.</p>
+        <p>VR Cation is compatible with all headsets and it can also be used on a desktop/laptop. Our Activity Planner allows users to plan their trips to places they would like to visit by pinning a location to the map.</p>
+        <p>VR Cation is committed to giving users the best possible immersive experience. While inside a tour each scene has audio information on a location including up to date weather.</p>
       </div>
     </div>
     <!-- /.row -->
@@ -50,12 +50,12 @@
         <div class="card h-100 text-center">
           <img class="card-img-top" src="http://placehold.it/750x450" alt="">
           <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            <h4 class="card-title">Bobbie Omobolabo Teriba</h4>
+            <h6 class="card-subtitle mb-2 text-muted">VR developer, VR tester, Website designer,Usability analyst</h6>
+<!--            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>-->
           </div>
           <div class="card-footer">
-            <a href="#">name@example.com</a>
+            <a href="#">D00197875@student.dkit.ie</a>
           </div>
         </div>
       </div>
@@ -63,12 +63,12 @@
         <div class="card h-100 text-center">
           <img class="card-img-top" src="http://placehold.it/750x450" alt="">
           <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            <h4 class="card-title">Aaron Kinney</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Database Maintainer, Website back-end, Website front-end</h6>
+<!--            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>-->
           </div>
           <div class="card-footer">
-            <a href="#">name@example.com</a>
+            <a href="#">D00190421@student.dkit.ie</a>
           </div>
         </div>
       </div>
@@ -76,12 +76,12 @@
         <div class="card h-100 text-center">
           <img class="card-img-top" src="http://placehold.it/750x450" alt="">
           <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            <h4 class="card-title">Rabby Bikunda</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Team Lead, VR developer, Scrum Master, Audio Creator</h6>
+<!--            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>-->
           </div>
           <div class="card-footer">
-            <a href="#">name@example.com</a>
+            <a href="#">D00197750@student.dkit.ie</a>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
     <!-- /.row -->
 
     <!-- Our Customers -->
-    <h2>Our Customers</h2>
+<!--    <h2>Our Customers</h2>
     <div class="row">
       <div class="col-lg-2 col-sm-4 mb-4">
         <img class="img-fluid" src="http://placehold.it/500x300" alt="">
@@ -109,7 +109,7 @@
       <div class="col-lg-2 col-sm-4 mb-4">
         <img class="img-fluid" src="http://placehold.it/500x300" alt="">
       </div>
-    </div>
+    </div>-->
     <!-- /.row -->
 
   </div>
@@ -118,7 +118,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; VR cation 2020</p>
     </div>
     <!-- /.container -->
   </footer>

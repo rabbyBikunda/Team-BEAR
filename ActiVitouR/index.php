@@ -63,7 +63,7 @@
                     <div class="card h-100">
                         <h4 class="card-header">Virtual Reality Tours</h4>
                         <div class="card-body">
-                            <p class="card-text">Experience virtual tours of various location in Ireland. We provide immersive tours 
+                            <p class="card-text">Experience virtual tours of various locations in Ireland. We provide immersive tours 
                             of popular Irish tourist attractions.</p>
                         </div>
                         <div class="card-footer">
@@ -106,6 +106,7 @@
                         <a href="vtours.php"><img class="card-img-top" src="img/wicklow_mountain.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
+                                
                                 <a href="#">Glendalough, Co. Wicklow</a>
                             </h4>
                             <p class="card-text">Visit Glendalough forest, Wicklow Mountains and Upper Lake, Glendalough Round Tower and Lough Tay in County Wicklow</p>
@@ -115,10 +116,12 @@
                 
                 <div class="col-lg-4 col-sm-6 portfolio-item">
                     <div class="card h-100">
+                          <!-- THIS IS A TEMP SEREVR-->
                         <a href="vtours.php"><img class="card-img-top" src="img/aran.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
-                                <a href="#">Aran Islands, Co. Galway</a>
+                                <!--THIS LINK IS JUST TO TEST IT LOCALLY -->
+                                <a href="http://localhost:53327" target="_blank">Aran Islands, Co. Galway</a>
                             </h4>
                             <p class="card-text">Visit Aran Islands, ancient ruins around Galway Way.</p>
                         </div>
@@ -128,7 +131,7 @@
             <!-- /.row -->
 
             <!-- Features Section -->
-            <div class="row">
+<!--            <div class="row">
                 <div class="col-lg-6">
                     <h2>Modern Business Features</h2>
                     <p>The Modern Business template by Start Bootstrap includes:</p>
@@ -147,11 +150,11 @@
                     <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
                 </div>
             </div>
-            <!-- /.row -->
+             /.row 
 
             <hr>
 
-            <!-- Call to Action Section -->
+             Call to Action Section 
             <div class="row mb-4">
                 <div class="col-md-8">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
@@ -159,7 +162,7 @@
                 <div class="col-md-4">
                     <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
                 </div>
-            </div>
+            </div>-->
 
         </div>
         <!-- /.container -->

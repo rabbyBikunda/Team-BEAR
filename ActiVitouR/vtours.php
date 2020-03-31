@@ -84,7 +84,7 @@
                 <div class="col-md-5">
                     <h3>Glendalough, Co. Wicklow</h3>
                     <p>Visit the peaceful Glendalough forest, Wicklow Mountains and Upper Lake, Glendalough Round Tower and Lough Tay in County Wicklow.</p>
-                    <a class="btn btn-primary" href="#">View Project
+                    <a class="btn btn-primary" href="#">View Tour
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                     <br>
@@ -118,7 +118,8 @@
                 <div class="col-md-5">
                     <h3>Aran Islands, Co. Galway</h3>
                     <p>Visit the Aran Islands guarding the Galway Bay in Western Ireland. Aran Islands consist of medieval ruins and are well known for their ancient sites.</p>
-                    <a class="btn btn-primary" href="#">View Project
+                    <!--THIS LINK IS JUST TO TEST IT LOCALLY -->
+                    <a class="btn btn-primary" href="http://localhost:51783" target="_blank">View Tour
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                     <br>
