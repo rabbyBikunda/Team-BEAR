@@ -96,21 +96,128 @@
     <script>
         function myMap() {
             var mapOptions = {
-                center: new google.maps.LatLng(51.5, -0.12),
-                zoom: 8,
+                center: new google.maps.LatLng(53.00187218745121, -6.34911060333252),
+                zoom: 9,
                 mapTypeId: google.maps.MapTypeId.HYBRID
-            }
+            };
             var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            var map2 = new google.maps.Map(document.getElementById("map2"), mapOptions);
 
-
+            var infowindow = new google.maps.InfoWindow({
+                content: '1. Glendalough Forest',
+                maxWidth: 200
+            });
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(51.5, -0.12),
-                animation: google.maps.Animation.BOUNCE
+                position: new google.maps.LatLng(53.00187218745121, -6.34911060333252)
             });
             marker.setMap(map);
+            marker.addListener('click', function () {
+                infowindow.open(map, marker);
+            });
+
+
+            var infowindow2 = new google.maps.InfoWindow({
+                content: '2. Wicklow Mountain',
+                maxWidth: 200
+            });
+            var marker2 = new google.maps.Marker({
+                position: new google.maps.LatLng(53.0102551318615, -6.327551007270814)
+            });
+            marker2.setMap(map);
+            marker2.addListener('click', function () {
+                infowindow2.open(map, marker2);
+            });
+
+
+            var infowindow3 = new google.maps.InfoWindow({
+                content: '3. Glendalough Round Tower',
+                maxWidth: 200
+            });
+            var marker3 = new google.maps.Marker({
+                position: new google.maps.LatLng(53.01090065113311, -6.327717304229736)
+            });
+            marker3.setMap(map);
+            marker3.addListener('click', function () {
+                infowindow3.open(map, marker3);
+            });
+            
+            
+            var infowindow4 = new google.maps.InfoWindow({
+                content: '4. Lough Tay',
+                maxWidth: 200
+            });
+            var marker4 = new google.maps.Marker({
+                position: new google.maps.LatLng(53.10587605, -6.2672966858168415)
+            });
+            marker4.setMap(map);
+            marker4.addListener('click', function () {
+                infowindow4.open(map, marker4);
+            });
+            
+            
+            
+            
+            
+            var mapOptions2 = {
+                center: new google.maps.LatLng(53.11185376709616, -9.714059829711916),
+                zoom: 9,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            };
+            var map2 = new google.maps.Map(document.getElementById("map2"), mapOptions2);
+            
+            var infowindows = new google.maps.InfoWindow({
+                content: '1. Inishmore',
+                maxWidth: 200
+            });
+            var markers = new google.maps.Marker({
+                position: new google.maps.LatLng(53.11185376709616, -9.714059829711916)
+            });
+            markers.setMap(map2);
+            markers.addListener('click', function () {
+                infowindows.open(map2, markers);
+            });
+
+
+            var infowindows2 = new google.maps.InfoWindow({
+                content: '2. Inishmaan',
+                maxWidth: 200
+            });
+            var markers2 = new google.maps.Marker({
+                position: new google.maps.LatLng(53.06191452568029, -9.519224166870119)
+            });
+            markers2.setMap(map2);
+            markers2.addListener('click', function () {
+                infowindows2.open(map2, markers2);
+            });
+
+
+            var infowindows3 = new google.maps.InfoWindow({
+                content: '3. Inisheer',
+                maxWidth: 200
+            });
+            var markers3 = new google.maps.Marker({
+                position: new google.maps.LatLng(53.058143, -9.5291498)
+            });
+            markers3.setMap(map2);
+            markers3.addListener('click', function () {
+                infowindows3.open(map2, markers3);
+            });
+            
+            
+            var infowindows4 = new google.maps.InfoWindow({
+                content: '4. Inisheer',
+                maxWidth: 200
+            });
+            var markers4 = new google.maps.Marker({
+                position: new google.maps.LatLng(53.05821349493244, -9.53039288520813)
+            });
+            markers4.setMap(map2);
+            markers4.addListener('click', function () {
+                infowindows4.open(map2, markers4);
+            });
+
         }
     </script>
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACDftqMunSPhLxNGvtpPg8Z_V58tNkYGo&callback=myMap"></script>
 
 </body>
