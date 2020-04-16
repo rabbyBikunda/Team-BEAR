@@ -60,7 +60,7 @@ require_once "functions/db.php";
             <h6 class="card-subtitle mb-2 text-muted">VR developer, VR tester, Website designer,Usability analyst</h6>
           </div>
           <div class="card-footer">
-            <a href="#">LinkedIn</a>
+            <a href="#"  target="_blank">LinkedIn</a>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@ require_once "functions/db.php";
             <h6 class="card-subtitle mb-2 text-muted">Database Maintainer, Website back-end, Website front-end</h6>
           </div>
           <div class="card-footer">
-            <a href="#">LinkedIn</a>
+            <a href="#"  target="_blank">LinkedIn</a>
           </div>
         </div>
       </div>
@@ -82,7 +82,8 @@ require_once "functions/db.php";
             <h6 class="card-subtitle mb-2 text-muted">Team Lead, VR developer, Scrum Master, Audio Creator</h6>
           </div>
           <div class="card-footer">
-            <a href="www.linkedin.com/in/rabby-bikunda">LinkedIn</a>
+              
+              <a href="https://www.linkedin.com/in/rabby-bikunda" target="_blank">LinkedIn</a>
           </div>
         </div>
       </div>
