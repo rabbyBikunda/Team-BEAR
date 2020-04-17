@@ -54,7 +54,7 @@ if (!isset($_SESSION['user_session'])) {
       <div class="col-lg-12 mb-4">
         <div class="card h-60 text-center">
           <div class="card-body">
-              <h4 class="card-title">You have already uploaded a tour</h4>
+              <h4 class="card-title">You have already uploaded a tour. Please check your email.</h4>
             <h6 ><div>
                           
                         </div>

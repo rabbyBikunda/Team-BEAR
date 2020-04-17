@@ -3,12 +3,13 @@ session_start();
     require_once("db.php");
 
         $rating = filter_input(INPUT_POST, 'rating');
-        $name = "Aran Islands";
+        $location = filter_input(INPUT_POST, 'location');
+        
 
         try{
                 $query = "INSERT INTO tours (name, user_email, rating) VALUES (:name, :user_email, :rating);";
                 $statement  = $db->prepare($query);
-                $statement->bindValue(":name", $name);
+                $statement->bindValue(":name", $location);
                 $statement->bindValue(":user_email", $_SESSION['user_email']);
                 $statement->bindValue(":rating", $rating);
                 $statement->execute();
@@ -22,7 +23,7 @@ session_start();
             
             
             
-        } catch (Exception $ex) {
+        } catch (Exception $e) {
             //echo "Email or username already exists, please try again";
             echo $e->getMessage();
 
