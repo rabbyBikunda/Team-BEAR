@@ -60,7 +60,7 @@ require_once "functions/db.php";
             <h6 class="card-subtitle mb-2 text-muted">VR developer, VR tester, Website designer,Usability analyst</h6>
           </div>
           <div class="card-footer">
-            <a href="#"  target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/bobbie-omobolabo-teriba-16bb56163"  target="_blank">LinkedIn</a>
           </div>
         </div>
       </div>

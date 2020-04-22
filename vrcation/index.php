@@ -107,27 +107,27 @@ require_once "functions/db.php";
             <h2>Virtual Tours</h2>
 
             <div class="row">
-                <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="col-lg-4 col-sm-6 portfolio-item"  style=" margin-right:auto; margin-left:auto;">
                     <div class="card h-100">
                         <a href="vtours.php"><img class="card-img-top" src="img/wicklow_mountain.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 
-                                <a href="#">Glendalough, Co. Wicklow</a>
+                                <a href="https://apex-fire-safety-demo.s3-eu-west-1.amazonaws.com/Team-BEAR/wicklow/index.html" target="_blank">Glendalough, Co. Wicklow</a>
                             </h4>
                             <p class="card-text">Visit Glendalough forest, Wicklow Mountains and Upper Lake, Glendalough Round Tower and Lough Tay in County Wicklow</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="col-lg-4 col-sm-6 portfolio-item" style=" margin-right:auto; margin-left:auto;">
                     <div class="card h-100">
-                          <!-- THIS IS A TEMP SEREVR-->
+                          
                         <a href="vtours.php"><img class="card-img-top" src="img/aran.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
-                                <!--THIS LINK IS JUST TO TEST IT LOCALLY -->
-                                <a href="http://localhost:53327" target="_blank">Aran Islands, Co. Galway</a>
+                               
+                                <a href="https://apex-fire-safety-demo.s3-eu-west-1.amazonaws.com/Team-BEAR/aran-island/index.html" target="_blank">Aran Islands, Co. Galway</a>
                             </h4>
                             <p class="card-text">Visit Aran Islands, ancient ruins around Galway Way.</p>
                         </div>
