@@ -1,12 +1,16 @@
 # Team-BEAR
 
-# Build Version
+## Build Version
 Netbeans IDE 8.0.2
 
 Server version: 10.3.16-MariaDB - MariaDB Server
 
-## HHH
+## Host information
 Host - https://www.000webhost.com/
+
+Email - rabbybikunda@gmail.com
+
+Password - teambear2020
 
 
 
