@@ -238,7 +238,7 @@ require_once "functions/db.php";
                     <h3>Aran Islands, Co. Galway</h3>
                     <p>Visit the Aran Islands guarding the Galway Bay in Western Ireland. Aran Islands consist of medieval ruins and are well known for their ancient sites.</p>
                     
-                    <a class="btn btn-primary" href="https://apex-fire-safety-demo.s3-eu-west-1.amazonaws.com/Team-BEAR/aran-island/index.html" target="_blank">View Tour
+                    <a class="btn btn-primary" href="https://aran-island.s3-eu-west-1.amazonaws.com/Builds/index.html" target="_blank">View Tour
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                        <button class="btn btn-primary" id="map2_toggle">Show/Hide map
